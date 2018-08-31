@@ -15,12 +15,9 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/imageView"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_centerInParent="true"
         android:layout_marginStart="100dp"
         android:layout_marginLeft="100dp"
+        android:layout_marginTop="40dp"
         android:text="@string/title1"
         android:textAllCaps="false"
         android:textColor="#4d4e50"
@@ -41,7 +38,8 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
         app:srcCompat="@drawable/coal" />
 
 </RelativeLayout>
